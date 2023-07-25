@@ -1,0 +1,218 @@
+ 					
+
+TECHICAL TEST 1 - 8 - JULY-2023
+
+1. Java is a tool used to write, run and execute the program which is written in editor
+   javac is a complier used to compile the code --> this convert machine code to bytecode which can be understand by jvm
+
+2. JDK - java development kit - which consist of tool that run and execute java code
+   JRE - java runtime environment - execute the program
+   JVM - java virtual machine - JVM is the only tool that understand bytecode and convert it into machine code
+
+3. Arrays - Store and Retrive Series of elements of same data type
+            memory allocated in sequence 
+	    index start from 0 
+	     ex - int[] data = {10,20,30}; 
+   Limitations :  we cannot store elements of different data type ,  size is fixed cannot be changes.
+
+4. class - Class is a instance of object and it is a blueprint to create a object
+	    it is a keyword
+           class ClassName{}	//class declaration
+
+  object - anything that exist in the real world
+           and it as 2 memebers
+           * state (info,properties) 
+           * behoviour (methods,functionalities)
+
+5. .java file consist of text code(english)
+   .class file consist of bytecode 
+
+6. methods - set of instructions
+   2types
+   1. static method - can be access from other classes
+   2. non static method  - cannot be acees from other classes
+
+   ex - static void run(){
+          int a=10;
+          sop(a)
+           }//method defination;
+         
+	static void walk();//method declaration
+
+7. java is a high level programming language used to interact with the computer				
+   it is popular beacause of its features mainly
+	* platform independent - write once read anywhere(in defferent os)
+	* Multithraeding - multi users can access the information simultaneously
+
+8. Java IDE's - Notepad++, 
+		VSCode, 
+		Eclipse, 
+		intelliJ....and some online compilers(programize, w3school....)
+
+9. variables - variables are used to store the informations and properties of object in the real world
+   Types - static(class) and non-static(instance)
+	syntax - dataType variable name = initialization;
+
+         ex : int a =9;(here a is variable)
+
+10. class varialbe means variable that is declared within the body of the class.
+
+11. Data Types - Type of data need to be store in variable
+    Types - primitive and non Primitive
+    primitive data type - int (used to integer values of range -3million to 3million)
+                          byte (used to store numbers of range -128 to 127)
+			  short (used to store numbers of range -32657 to 32656)
+			  long (used to store values of range -9million to 9million)
+ 			  char (used to store single character within single quotes('')charachter may be alpahbets , numbers, special characters..)
+			  boolean (used to store true or false values)
+			  float (used to store decimal values)
+			  double (used to store decimal values)
+
+    non primitive data type - which are dirrived from primitive data types 
+                          Array - used to store sequence values of same data type 
+			  String - used to store sequence of characters ("")
+
+12.Java Features - Easy to code
+ 		   Object oriented - Representing object as program
+		   Platform Independent
+		   Multi Threading
+		   Portable
+     		   Open Source
+		   secure
+		   
+
+13. Main class is the Base Class of All Classes.
+
+14. methods - set of instructions
+   1. static method
+   2. non static method
+
+   ex - static void run(){
+          int a=10;
+          sop(a)
+           }//method defination;
+         
+	static void walk();//method declaration
+
+15. class Main{
+	public static void main(String[] args){
+
+	
+	MainRunner.information("Bindhu",22);//Method Invoking from other Class
+
+	System.out.println("Runnig main in java");
+	int id = 100;	//VARIABLE DECLARATION
+	String candidate = "Bindhu";
+	char gender = 'F';
+
+	System.out.println(id);
+	System.out.println(candidate);
+	System.out.println(gender);
+
+	String[] friends = {"Joy","Rachel","Ross","Chandler","Monica","phoebhi"};
+	
+	//FOR LOOP
+
+	for(int i=0; i<friends.length-1; i++)	//printing names in forward direction
+	{
+		System.out.println(friends[i]);
+	}
+
+        
+	for(int i=friends.length-1; i>=0; i--)	//printing names in reverse direction
+	{
+		System.out.println(friends[i]);
+	}
+
+	//IF ELSE
+
+	if(friends[0] == "Joy")
+	{
+		System.out.println("Joy name is placed in first position);
+	}
+	else if(friends[1] == "Joy")
+	{
+		System.out.println("Joy name is placed in second position);
+	}
+	else if(friends[2] == "Joy")
+	{
+		System.out.println("Joy name is placed in third position);
+	}
+	else if(friends[3] == "Joy")
+	{
+		System.out.println("Joy name is placed in fourth position);
+	}	
+	else if(friends[4] == "Joy")
+	{
+		System.out.println("Joy name is placed in fifth position);
+	}
+	else if(friends[5] == "Joy")
+	{
+		System.out.println("Joy name is placed in sixth position);
+	}
+ 	else
+	{
+		Sysem.out.println("Error");
+	}
+
+	//INVOKING METHOD OF SAME CLASS
+
+	info("Varun");		//Implicit arguments
+	String name = "Tej";	// explicit arguments
+	info(name);
+	
+	}
+
+	static void info(String name ){ 	//METHOD DECLARATION AND DEFINATION
+		System.out.println("Name that is passed as arguments is : "+name);
+	}
+}
+
+class MainRunner{
+	static void information(String name,int age ){ //METHOD DECLARATION AND DEFINATION
+		System.out.println("Name that is passed as arguments is : "+name);
+		System.out.println("Age that is passed as arguments is : "+age);
+	}
+}
+
+						APTITUDE
+
+
+1.29
+
+2.20
+
+3.100
+
+4.65 but option not there
+
+5.21
+
+6.K 
+
+7.P
+
+8.FR
+
+9.bccab
+
+10.GOV
+
+11.2
+
+12.38
+
+13.Window
+
+14.Sun
+
+15.BE
+
+
+
+
+
+
+
+
+	    
