@@ -10,6 +10,7 @@ public class TrainMain {
 		System.out.println("------------------------");
 		
 		Metro metro=new Metro();
+		Train train1=new Metro();
 		System.out.println("Train Name : "+metro.trainMethod());
 		System.out.println("Metro Line : "+metro.metroMethod());
 		System.out.println("------------------------");
