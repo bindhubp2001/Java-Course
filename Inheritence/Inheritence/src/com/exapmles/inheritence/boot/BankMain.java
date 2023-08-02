@@ -9,7 +9,7 @@ public class BankMain {
 		System.out.println("--------------------");
 		
 		SavingAccount account=new SavingAccount();
-		Bank acc2=new SavingAccount();
+		Bank sacc=new SavingAccount();
 		account.bankMethod();
 		account.savingAccMethod();
 		System.out.println("--------------------");
