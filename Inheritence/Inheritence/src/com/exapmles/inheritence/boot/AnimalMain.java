@@ -9,7 +9,7 @@ public class AnimalMain {
 		animal.animalMethod();
 		System.out.println("--------------------------");
 
-		Animal dog1=new Dog();
+		Animal dog2=new Dog();
 		Dog dog=new Dog();
 		dog.animalMethod();
 		dog.dogMethod();
