@@ -6,7 +6,7 @@ import com.xworkz.associationmethod.app2.*;
 public class SportMain {
 
 	public static void main(String[] args) {
-		System.out.println("Rniing MAin in sport Class");
+		System.out.println("Running Main in sport Class");
 
 		String name = "CRICKET";
 
