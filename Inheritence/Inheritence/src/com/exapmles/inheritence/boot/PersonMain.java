@@ -9,16 +9,19 @@ public class PersonMain {
 		System.out.println("-------------------");
 		
 		Employee employee=new Employee();
+		Person employee1=new Employee();
 		employee.empMethod();
 		employee.personMethod();
 		System.out.println("-------------------");
 		
 		Player player=new Player();
+		Person player1=new Player();
 		player.playerMethod();
 		player.personMethod();
 		System.out.println("-------------------");
 		
 		Student student=new Student();
+		Person studenet1=new Student();
 		student.studentMethod();
 		student.personMethod();
 	}
