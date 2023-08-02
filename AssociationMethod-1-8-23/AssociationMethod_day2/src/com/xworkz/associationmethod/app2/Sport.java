@@ -11,16 +11,13 @@ public class Sport {
 	}
 
 	public void printInfo() {
-		System.out.println("Running sports info");
-		System.out.println("Name :" + this.name);
-
 		
+		System.out.println("Printing sports info");
+		System.out.println("Name :" +name);
 
 		for (int sport = 0; sport < this.players.length; sport++) {
-			Player ref = players[sport];
-			ref.printInfo();
-			
-			
+			Player play = players[sport];
+			play.printInfo();
 		}
 	}
 }

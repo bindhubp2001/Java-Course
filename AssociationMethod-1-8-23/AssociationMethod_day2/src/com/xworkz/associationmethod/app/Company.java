@@ -5,10 +5,10 @@ public class Company {
 	public String companyCeo;
 	public String originCountry;
 
-	public Company(String companyName, String companyCeo, String companyOriginCountry) {
+	public Company(String companyName, String companyCeo, String originCountry) {
 		this.companyName = companyName;
 		this.companyCeo = companyCeo;
-		this.originCountry = companyOriginCountry;
+		this.originCountry = originCountry;
 	}
 
 	public void companyMethod() {
