@@ -9,7 +9,7 @@ public class Thief {
 	private String location;
 
 	public Thief() {
-		// TODO Auto-generated constructor stub
+
 	}
 
 	public Thief(String name, int age, int number, String jailName, int prisonNumber, String location) {
@@ -24,7 +24,7 @@ public class Thief {
 
 	@Override
 	public String toString() {
-		// TODO Auto-generated method stub
+
 		return name + "\n" + age + "\n" + jailName + "\n" + number + "\n" + prisonNumber + "\n" + location;
 	}
 
