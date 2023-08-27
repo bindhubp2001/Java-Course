@@ -49,6 +49,9 @@ public class Main {
 		ReservationTicket reservationTicket=new ReservationTicket();
 		reservationTicket.displayBill();
 		
+		Ticket ticket=new ReservationTicket();
+		ticket.displayBill();
+		
 		System.out.println("----------------------");
 		
 		Mic mic=new Speaker();
