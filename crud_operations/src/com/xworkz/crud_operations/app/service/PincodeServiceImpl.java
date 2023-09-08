@@ -13,7 +13,7 @@ public class PincodeServiceImpl implements PincodeService {
 	@Override
 	public boolean validateAndSave(int pincode) {
 
-		if (pincode != 0) {
+		if (pincode != 0 && pincode>=100000 && pincode<=666666) {
 			System.out.println("VALID DATA");
 
 			if (!this.pincodeRepository.isExist(pincode)) {

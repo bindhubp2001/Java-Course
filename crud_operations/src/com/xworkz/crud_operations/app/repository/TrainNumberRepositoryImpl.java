@@ -21,7 +21,7 @@ public class TrainNumberRepositoryImpl implements TrainNumberRepository {
 	public boolean isExist(int trainNumber) {
 		for (int i = 0; i < pos; i++) {
 			int temp = trainNumbers[i];
-			if (temp != 0 && temp == trainNumber) {
+			if (temp == trainNumber) {
 				System.err.println("pincode already exist");
 				return true;
 			}
