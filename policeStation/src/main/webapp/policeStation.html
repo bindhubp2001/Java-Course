@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Insert title here</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+		
+		<style>
+			
+			h2{
+				color:black;
+			}
+	
+		</style>
+</head>
+
+<body class="bg-secondary text-white">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<div class="container-md">
+			<a class="navbar-brand" href="#">X-Workz</a>
+		</div>
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+				<li class="nav-item">
+					<a class="nav-link " aria-current="page" href="index.html">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link active" href="policeStation.html">Police Staion</a>
+				</li>
+			</ul>
+
+		</div>
+	</nav><br>
+
+	<h2 class="d-flex justify-content-center p-2">Fill The Form of PoliceStation</h2><br>
+
+	<div class="container">
+		<form action="police">
+
+			<div class="row">
+				<div class="col-6">
+					<input type="text" name="stationName" class="form-control" placeholder="Enter Station name" />
+				</div>
+
+				<div class="col-6">
+					<input type="text" name="headConstableName" class="form-control"
+						placeholder="Enter Head Constatble Name" />
+				</div>
+			</div><br>
+
+			<div class="row">
+				<div class="col-6">
+					<input type="text" name="location" class="form-control" placeholder="Enter Location " />
+				</div>
+
+				<div class="col-6">
+					<input type="text" name="assistantCommisioner" class="form-control"
+						placeholder=" Enter Assistent Commisioner Name" />
+				</div>
+			</div><br>
+
+			<div class="row">
+				<div class="col-6">
+					<input type="text" name="inspectorName" class="form-control" placeholder="Enter Inspector Name" />
+				</div>
+				<div class="col-6">
+					<input type="number" name="noOfCell" class="form-control" placeholder="Enter Number Of Cells" />
+				</div>
+			</div><br>
+
+			<div class="row">
+				<div class="col-6">
+					<input type="text" name="siName" class="form-control" placeholder="Enter SI Name" />
+				</div>
+				<div class="col-6">
+					<select class="form-select " name="painted">
+						<option selected>Painted???--select---</option>
+						<option>YES</option>
+						<option>NO</option>
+					</select>
+				</div>
+			</div><br>
+			<div class="text-center">
+				<input type="submit" value="Save" class="btn btn-dark " />
+			</div>
+		</form>
+	</div>
+</body>
+
+</html>

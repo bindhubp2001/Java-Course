@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="ISO-8859-1">
+	<title>X-Workz</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+		<style>
+			body{
+				background: url("https://media.istockphoto.com/id/1441865819/photo/sources-for-renewable-sustainable-development-environment-and-ecology-concept.webp?b=1&s=170667a&w=0&k=20&c=ayXNjM9-w_wzvUbje3oBMyDTm-5TCyeMzyqym9moKSQ=");
+				background-size: cover;
+				
+			}
+			
+			.btn-success{
+				background-color:black;
+				color: white;
+				border: 1px solid black;
+			}
+		</style>
+			
+</head>
+
+<body>
+
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<div class="container-md">
+			<a class="navbar-brand" href="#">X-Workz</a>
+		</div>
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+				<li class="nav-item">
+					<a class="nav-link " aria-current="page" href="index.html">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link active" href="farmer.html">Farmer</a>
+				</li>
+			</ul>
+
+		</div>
+	</nav><br>
+
+	<h2 class="d-flex justify-content-center p-2">Fill The Form of Farmer</h2><br>
+
+	<div class="container bg-colored">
+		<form action="farmer">
+			<div class="row">
+				<div class="col-6">
+					<input type="text" name="farmerName" class="form-control"
+						placeholder="Enter farmer name" />
+				</div>
+
+				<div class="col-6">
+					<input type="text" name="area" class="form-control" placeholder="Enter Land area" />
+				</div>
+			</div><br>
+
+			<div class="row">
+				<div class="col-6">
+				<select class="form-select " name="soilType">
+					<option selected>---select---</option>
+					<option>Black Soil</option>
+					<option>Red Soil</option>
+					<option>Clay Soil</option>
+				</select>
+				</div>
+				
+				<div class="col-6">
+				<select class="form-select" name="cropType">
+					<option selected>---select---</option>
+					<option>Maize</option>
+					<option>Arcanut</option>
+					<option>Coconut</option>
+					<option>Wheat</option>
+					<option>Paddy</option>
+					<option>Potato</option>
+				</select>
+				</div>
+			</div><br>
+			
+			<div class="row">
+				<div class="col-6">
+				<select class="form-select" name="fertilizer">
+					<option selected>---select---</option>
+					<option>NPM</option>
+					<option>UREA</option>
+					<option>Pottash</option>
+				</select>
+				</div>
+				
+				<div class="col-6">
+				<select class="form-select" name="season">
+					<option selected>---select---</option>
+					<option>Summer</option>
+					<option>Rainy</option>
+					<option>Winter</option>
+					<option>Spring</option>
+				</select>
+				</div>
+			</div><br>
+			
+			<div class="row">
+				<div class="col-6">
+					<input type="text" name="investment" class="form-control"
+						placeholder="Enter amount of investment " />
+				</div>
+
+				<div class="col-6">
+					<input type="text" name="profit" class="form-control" placeholder="Profit? Type Y/N" />
+				</div>
+			</div><br>
+			
+			<div class="row">
+				<div class="col-6">
+					<input type="text" name="recNo" class="form-control"
+						placeholder="Enter Record Number" />
+				</div>
+
+				<div class="col-6 form-group">
+                <input class="btn btn-success btn-lg float-right"
+                        type="submit">
+                </input>
+            	</div>
+			</div>
+	</form>
+	</div>
+
+</body>
+
+</html>
