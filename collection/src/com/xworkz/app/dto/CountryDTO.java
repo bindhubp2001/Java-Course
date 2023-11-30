@@ -131,6 +131,23 @@ public class CountryDTO {
 				+ primaryReligion + ", nationalAnimal=" + nationalAnimal + ", nationalBird=" + nationalBird
 				+ ", nationalSport=" + nationalSport + ", primeMinister=" + primeMinister + "]";
 	}
+	
+	@Override
+	public boolean equals(Object obj) {
+		
+		if(obj!=null) {
+			if(obj instanceof CountryDTO) {
+				
+				CountryDTO countryDTO=(CountryDTO)obj;
+				if(countryDTO.name.equals(name)) {
+					return true;
+				}
+				
+			}
+		}
+		return false;
+		
+	}
 
 	
 

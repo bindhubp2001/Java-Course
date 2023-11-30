@@ -410,7 +410,6 @@ public class CountryCollection {
 		countries.add(country5);
 		countries.add(country6);
 		countries.add(country7);
-
 		countries.add(country8);
 		countries.add(country9);
 		countries.add(country10);
@@ -600,15 +599,50 @@ public class CountryCollection {
 		countries.add(country194);
 		countries.add(country195);
 		
-		
 
-		Iterator<CountryDTO> itr = countries.iterator();
-		while (itr.hasNext()) {
-			CountryDTO country = itr.next();
-			System.out.println(country);
-		}
+//		Iterator<CountryDTO> itr = countries.iterator();
+//		
+//		int count = 0;
+//		while (itr.hasNext()) {
+//			CountryDTO country = itr.next();
+//			if(country.getName().contains("m")) {
+//			System.out.println(country.getName());
+//			count++;
+//			}
+//		}
+		
+		//System.out.println("\nTOTAL Count "+count);
 		
 		System.out.println("\nTOTAL "+countries.size());
-
+		
+		CountryDTO testCountry = new CountryDTO(196, "Kailsa", "Dunno", 33091507, "July 28, 1821", 3, "Hindu",
+				"Vicuña", "Andean Cock-of-the-rock", "Tennis", "Nithyananda");
+		
+		boolean cont = countries.contains(testCountry);
+		System.out.println(cont);
+		
+		countries.add(testCountry);
+		
+		System.out.println("\nTOTAL After Adding Kailasa "+countries.size());
+		boolean cont2 = countries.contains(testCountry);
+		System.out.println(cont2);
+		
+		CountryDTO testCountry1 = new CountryDTO(196, "Kailsa", "Dunno", 33091507, "July 28, 1821", 3, "Hindu",
+				"Vicuña", "Andean Cock-of-the-rock", "Tennis", "Nithyananda");
+		
+		boolean cont3 = countries.contains(testCountry1);
+		System.out.println(cont3);
+		
+		int count=0;
+		for(CountryDTO country : countries) {
+			if(country.getName().endsWith("a")) {
+				System.out.println(country.getName());
+				count++;
+			}
+			
+		}
+		
+		System.out.println("\nCount Ends With : "+count);
+		
 	}
 }

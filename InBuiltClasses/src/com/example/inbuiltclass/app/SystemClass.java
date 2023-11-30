@@ -22,6 +22,8 @@ public class SystemClass {
 		String s1 = "java2s";
 		int ret1 = System.identityHashCode(s1);
 		System.out.println(ret1);
+		
+		
 
 	}
 
